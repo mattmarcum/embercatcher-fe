@@ -26,7 +26,7 @@ module.exports = function(defaults) {
           {
             module: require('postcss-import'),
             options: {
-              path: ['node_modules']
+              path: ['app','node_modules']
             }
           },
           require('tailwindcss')('./config/tailwind.config.js'),
