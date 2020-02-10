@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'ember-catcher-fe',
+    modulePrefix: 'embercatcher-fe',
     environment,
     rootURL: '/',
     locationType: 'auto',

@@ -1,0 +1,7 @@
+<section class="mx-auto w-full">
+  <label class="mt-16 w-full" for="podcast-url">Enter a podcast url:</label>
+  <Podcast::UrlInput id="podcast-url" class="w-full mt-4" as |podcast|>
+      <h1>dumb shit: {{podcast.name}}</h1>
+     <Podcast::Preview @podcast={{podcast}}/>
+  </Podcast::UrlInput>
+</section>
